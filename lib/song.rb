@@ -46,7 +46,7 @@ class Song
 end
 end
 
-def self.artist_count 
+def artist_count 
   artist_list = {}
   @@artists.map do |artists|
     if artist_list[artists]
